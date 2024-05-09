@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Destek - 8G Academy</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="contact.js"></script> 
+</head>
+
+<body>
+    <header class="header-content">
+        <h1 class="title">Destek</h1> 
+
+        <!-- Search form -->
+        <form action="search.php" method="get" class="search-form">
+            <input type="search" name="q" placeholder="search"> 
+            <button type="submit">Search</button> 
+        </form>
+
+    </header>
+    <header>
+        <!-- Main navigation menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li> 
+                <li><a href="about.html">Hakkımızda</a></li> 
+                <li><a href="services.html">Hizmetlerimiz</a></li> 
+                <li><a href="support.html">Destek</a></li> 
+                <li><a href="gallery.html">Galeri</a></li> 
+                <li><a href="news.html">Etkinlikler</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Frequently Asked Questions section -->
+        <section class="faq-section">
+            <h2>SSS</h2> 
+            <p>Akademi ile ilgili sıkça sorulan sorular ve cevapları.</p> 
+        </section>
+
+        <!-- Forum Discussions section -->
+        <section class="forum-section">
+            <h2>Forum Tartışmaları</h2> 
+            <p>Forumumuza katılın.</p>
+        </section>
+
+        <!-- Contact Information section -->
+        <section class="contact-section">
+            <h2>İletişim Bilgileri</h2> 
+            <p> Telefon: 0505 618 03 58</p> 
+            <p> İnstagram: 8g_akademi_</p> 
+            <p> Eposta: info@8g-akademi.com</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">İsim:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Gönder</button>
+            </form>
+            <div id="response-message" style="display:none;"></div>
+        </section>
+        
+        <!-- Map section -->
+        <section class="map-section">
+            <h2>Konum</h2> 
+            <div id="map"></div> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.596118819305!2d32.6505614747678!3d39.90567398658742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d339f2e65e4e87%3A0x95618d3a702e6003!2s8G%20Akademi!5e0!3m2!1sen!2str!4v1715265749987!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2024 8G Academy. All rights reserved.</p> 
+    </footer>
+</body>
+
+</html>

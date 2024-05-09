@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkinlikler - 8G Academy</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="contact.js"></script> 
+</head>
+
+<body>
+    <header>
+        <header class="header-content">
+            <h1 class="title">Etkinlikler</h1>
+            <!-- Search form -->
+            <form action="search.php" method="get" class="search-form">
+                <input type="search" name="q" placeholder="search">
+                <button type="submit">Search</button>
+            </form>
+    
+        </header>
+        
+        <!--Navigation menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetlerimiz</a></li>
+                <li><a href="support.html">Destek</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="news.html">Etkinlikler</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <!-- Section for displaying recent events -->
+    <section class="news-section">
+        <h2>Son Etkinlikler</h2>
+        <div class="news-container">
+            <article class="news-article">
+                <h3>Etkinlik Başlığı</h3>
+                <p>Son Etkinlikler Yakında Eklenecektir.</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Section for displaying upcoming events -->
+    <section class="events-section">
+        <h2>Gelecek Etkinlikler</h2>
+        <div class="events-layout">
+            <div id="datepicker"></div>
+            <div class="events-container">
+                <div id="event-details" style="display:none;"></div>
+                <ul class="events-list">
+                    <div class="event-info-box">
+                        <p>Takvimimizdeki İşaretli Tarihleri Kontrol Ederek Etkinlik Detaylarına Ulaşabilirsiniz.</p>
+                    </div>                    
+                    <li><h4>DENEME SINAVI</h4><p>20 Mayıs 2024 Pazartesi günü Palme Yayinevi işbirliği ile 5,6,7 ve 8. Sınıflara özel deneme sınavı yapılacaktır.</p></li>
+                    <li><h4>YÜZME ETKİNLİĞİ</h4><p>Yaz sıcaklarında serinlemek için öğrencilerimizle buluşuyoruz.</p></li>
+                    <li><h4>SİNEMA ETKİNLİĞİ</h4><p>15 Haziran Cumartesi günü derslere ara vererek öğrencilerimizin seçeceği filmi izliyoruz.</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2024 8G Academy. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
